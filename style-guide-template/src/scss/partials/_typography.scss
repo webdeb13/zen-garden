@@ -61,7 +61,7 @@ h3 {
 
 section > h2::before {
   /* number before each section title */
-  color: darken($color-4, 15%);
+  color: $color-5;
 }
 
 p {

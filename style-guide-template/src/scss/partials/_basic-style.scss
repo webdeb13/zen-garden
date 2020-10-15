@@ -195,6 +195,39 @@ header {
 		}
     }    
 
+.cd-secondary-nav ul li {
+	color: $color-5;
+	padding-bottom: 5px;
+	font-size: 2rem;
+	a {
+		&:link, &:visited {
+		  color:$color-5;
+		  text-decoration: none;
+		}
+		&:hover {
+			text-decoration: underline;
+		}
+		&:active {
+			color: $color-4;
+		}
+	}
+}
+
+a {
+	&:link, &:visited {
+		color:$color-3;
+		text-decoration: none;
+		padding-bottom: 5px;
+		font-size: 2rem;
+	  }
+	  &:hover {
+		  text-decoration: underline;
+	  }
+	  &:active {
+		  color: $color-4;
+	  }
+}
+
 
 .nav-is-visible {
 	.cd-nav-trigger span {
