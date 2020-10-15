@@ -170,8 +170,8 @@ input[type='checkbox']:checked + label::after {
   display: block;
 }
 
-.cd-select::after {
-  /* switcher arrow for select element */
+/*.cd-select::after {
+  /* switcher arrow for select element 
   content: '';
   position: absolute;
   z-index: 1;
@@ -183,7 +183,7 @@ input[type='checkbox']:checked + label::after {
   height: 16px;
   background: url('../assets/form/icon-select.svg') no-repeat center center;
   pointer-events: none;
-}
+}*/
 
 select {
   position: relative;
