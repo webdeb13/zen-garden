@@ -180,21 +180,22 @@ header {
 .cd-primary-nav ul li {
         color: $color-2;
         padding-bottom: 5px;
-        font-size: 2rem;
+		font-size: 2rem;
+		a {
+			&:link, &:visited {
+			  color:$color-2;
+			  text-decoration: none;
+			}
+			&:hover {
+				text-decoration: underline;
+			}
+			&:active {
+				color: $color-4;
+			}
+		}
     }    
 
-.cd-primary-nav ul li a {
-      &:link, &:visited {
-        color:$color-2;
-        text-decoration: none;
-      }
-      &:hover {
-          text-decoration: underline;
-      }
-      &:active {
-          color: $color-4;
-      }
-  }
+
 .nav-is-visible {
 	.cd-nav-trigger span {
 
