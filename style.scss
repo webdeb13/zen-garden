@@ -25,12 +25,14 @@ body {
     padding: 0px 25px;
 }
 
+// header styles for mobile
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Merienda', cursive;
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2.5em;
 
 }
 
@@ -45,6 +47,31 @@ h1, h2, .banner, .summary p:nth-child(1) {
     text-align: right;
 }
 
-.summary p:nth-child(2) {
-    text-align: center;
+.summary p:nth-child(1){
+    margin-left: 1em;
+    margin-bottom: 2em;
 }
+
+
+.summary p:nth-child(2) {
+    max-width: 12em;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 13em;
+
+}
+
+// main styles for mobile
+
+.requirements, .benefits, .participation, .explanation, .preamble {
+    padding-left: 60px; // gave padding on left to account for stars for bullet points
+}
+
+.explanation {
+    margin-bottom: 18em;
+}
+
+.requirements {
+    margin-bottom: 7em;
+}
+
