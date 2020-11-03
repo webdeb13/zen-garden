@@ -47,7 +47,7 @@ h1, h2, .banner, .summary p:nth-child(1) {
 }
 
 .requirements, .benefits, .participation, .explanation, .preamble {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 .explanation {
