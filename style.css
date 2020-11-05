@@ -58,4 +58,76 @@ h1, h2, .banner, .summary p:nth-child(1) {
   margin-bottom: 7em;
 }
 
+.wrapper {
+  text-align: center;
+}
+
+.design-selection nav ul, .design-archives nav ul, .zen-resources ul {
+  list-style: none;
+  margin-bottom: 2em;
+  padding-left: 0;
+}
+
+.design-selection nav li, .design-archives nav li, .zen-resources li {
+  margin: 0 auto;
+  margin-bottom: 1.3em;
+}
+
+.design-name {
+  display: block;
+  font-size: 1.2em;
+}
+
+.design-selection nav li a:nth-child(1) {
+  padding-bottom: 0.4em;
+}
+
+/* grid assignments for grid template area*/
+footer a:nth-child(1) {
+  grid-area: one;
+}
+
+footer a:nth-child(2) {
+  grid-area: two;
+}
+
+footer a:nth-child(3) {
+  grid-area: three;
+}
+
+footer a:nth-child(4) {
+  grid-area: four;
+}
+
+footer a:nth-child(5) {
+  grid-area: five;
+}
+
+footer {
+  position: absolute;
+  bottom: -80em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 4em auto;
+  grid-template-areas: "one . two . three" ". four . five .";
+}
+
+.supporting {
+  position: relative;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.extra1 {
+  position: block;
+  padding-bottom: 25em;
+}
+
 /*# sourceMappingURL=style.css.map */
