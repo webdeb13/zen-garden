@@ -12,7 +12,18 @@
 
     div.explanation {
         margin-bottom: 4em;
-        width: 50%;
+        width: 40%;
+    }
+
+    .main > footer {
+        bottom: -25em;
+        left: 17%;
+        grid-column-gap: 5em;
+        grid-row-gap: 5em;
+    }
+
+    .extra1 {
+        padding-bottom: 0;
     }
 
 }
