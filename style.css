@@ -38,6 +38,7 @@ html {
 }
 
 body {
+  position: relative;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   max-width: 1080px;
