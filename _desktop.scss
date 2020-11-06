@@ -1,14 +1,18 @@
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1270px){
     .sidebar {
         position: absolute;
         left: 5%;
-        top: 30em;
+        top: 27.5em;
     }
     .preamble,
     .main > * {
-        margin-left: 15%
+        margin-left: 20%;
+        margin-bottom: 4em;
     }
 
-
+    div.explanation {
+        margin-bottom: 4em;
+        width: 50%;
+    }
 
 }
