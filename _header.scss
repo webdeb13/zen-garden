@@ -1,0 +1,16 @@
+@media only screen and (min-width: $width-desktop){
+
+    // header styles for desktop
+
+    .summary p:nth-child(1){
+        margin-left: 65%;
+    }
+
+    .summary p:nth-child(2){
+        margin: 0;
+        margin-bottom: 10em;
+        position: relative;
+        right: 0em;
+        top: -10em;
+    }
+}

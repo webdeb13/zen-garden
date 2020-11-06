@@ -4,10 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 //font-family: 'Roboto', sans-serif;
 
+// Variables
+$width-desktop: 1080px;
 
+//Mixin
+
+// Partials
 @import "typography";
 @import "color";
 @import "desktop";
+
 
 html {
     box-sizing: border-box;
@@ -19,9 +25,9 @@ html {
 
 body {
     position: relative;
-    font-family: 'Roboto', sans-serif;
+    font-family: $body-font;
     font-size: 1em;
-    max-width: 1080px;
+    max-width: $width-desktop;
     margin: 0 auto;
     height: 100%;
     padding: 0px 25px;
@@ -30,19 +36,16 @@ body {
 // header styles for mobile
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Merienda', cursive;
+    font-family: $title-font;
 }
 
 h1{
     font-size: 2.5em;
-
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: $body-font;
     font-size: 1.2em;
-
-
 }
 
 h1, h2, .banner, .summary p:nth-child(1) {
@@ -60,22 +63,9 @@ h1, h2, .banner, .summary p:nth-child(1) {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 13em;
-
 }
 
-@media only screen and (min-width: 1080px){
-    .summary p:nth-child(1){
-        margin-left: 65%;
-    }
-
-    .summary p:nth-child(2){
-        margin: 0;
-        margin-bottom: 10em;
-        position: relative;
-        right: 0em;
-        top: -10em;
-    }
-}
+@import "header";
 
 // main styles for mobile
 
