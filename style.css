@@ -1,5 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@media only screen and (min-width: 1270px) {
+  .sidebar {
+    position: absolute;
+    left: 5%;
+    top: 27.5em;
+  }
+
+  .preamble,
+.main > * {
+    margin-left: 20%;
+    margin-bottom: 4em;
+  }
+
+  div.explanation {
+    margin-bottom: 4em;
+    width: 40%;
+  }
+
+  .main > footer {
+    bottom: -25em;
+    left: 17%;
+    grid-column-gap: 5em;
+    grid-row-gap: 5em;
+  }
+
+  .extra1 {
+    padding-bottom: 0;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -22,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 h2 {
@@ -34,8 +63,100 @@ h1, h2, .banner, .summary p:nth-child(1) {
   text-align: right;
 }
 
+.summary p:nth-child(1) {
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+
 .summary p:nth-child(2) {
+  max-width: 12em;
+  margin: 0 auto;
   text-align: center;
+  margin-bottom: 13em;
+}
+
+.requirements, .benefits, .participation, .explanation, .preamble {
+  padding-left: 40px;
+}
+
+.explanation {
+  margin-bottom: 18em;
+}
+
+.requirements {
+  margin-bottom: 7em;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.design-selection nav ul, .design-archives nav ul, .zen-resources ul {
+  list-style: none;
+  margin-bottom: 2em;
+  padding-left: 0;
+}
+
+.design-selection nav li, .design-archives nav li, .zen-resources li {
+  margin: 0 auto;
+  margin-bottom: 1.3em;
+}
+
+.design-name {
+  display: block;
+  font-size: 1.2em;
+}
+
+.design-selection nav li a:nth-child(1) {
+  padding-bottom: 0.4em;
+}
+
+/* grid assignments for grid template area*/
+footer a:nth-child(1) {
+  grid-area: one;
+}
+
+footer a:nth-child(2) {
+  grid-area: two;
+}
+
+footer a:nth-child(3) {
+  grid-area: three;
+}
+
+footer a:nth-child(4) {
+  grid-area: four;
+}
+
+footer a:nth-child(5) {
+  grid-area: five;
+}
+
+footer {
+  position: absolute;
+  bottom: -80em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 4em auto;
+  grid-template-areas: "one . two . three" ". four . five .";
+}
+
+.supporting {
+  position: relative;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.extra1 {
+  position: block;
+  padding-bottom: 25em;
 }
 
 /*# sourceMappingURL=style.css.map */
