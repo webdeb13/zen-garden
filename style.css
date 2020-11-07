@@ -169,7 +169,7 @@ footer {
 }
 
 .extra1 {
-  position: block;
+  display: block;
   padding-bottom: 25em;
 }
 
