@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@media only screen and (min-width: 1270px) {
+@media only screen and (min-width: 1080px) {
   .sidebar {
     position: absolute;
     left: 5%;
@@ -38,6 +38,7 @@ html {
 }
 
 body {
+  position: relative;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   max-width: 1080px;
@@ -75,6 +76,19 @@ h1, h2, .banner, .summary p:nth-child(1) {
   margin-bottom: 13em;
 }
 
+@media only screen and (min-width: 1080px) {
+  .summary p:nth-child(1) {
+    margin-left: 65%;
+  }
+
+  .summary p:nth-child(2) {
+    margin: 0;
+    margin-bottom: 10em;
+    position: relative;
+    right: 0em;
+    top: -10em;
+  }
+}
 .requirements, .benefits, .participation, .explanation, .preamble {
   padding-left: 40px;
 }
@@ -155,7 +169,7 @@ footer {
 }
 
 .extra1 {
-  position: block;
+  display: block;
   padding-bottom: 25em;
 }
 
