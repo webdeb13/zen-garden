@@ -1,17 +1,15 @@
-$blue: #409fff;
-$blue1: #3695f5;
-$blue2: #2c8beb;
-$blue3: #2281e1;
-$blue4: #1877d7;
-$blue5: #0e6dcd;
-$blue6: #0463c3;
-$blue7: #0059b9;
-$blue8: #004faf;
-$blue9: #0045a5;
-$blue10: #003b9b;
-$blue11: #003191;
+$blue1: #ffffff;
+$blue2: #71b8ff;
+$blue3: #409fff;
+$blue4: #0e6dcd;
+$blue5: #0463c3;
+$blue6: #0059b9;
+$blue7: #004faf;
+$blue8: #0045a5;
+$blue9: #003b9b;
 
-$gradient-list: $blue 0%, $blue1 10%, $blue2 20%, $blue4 30%, $blue5 40%, $blue6 50%, $blue7 60%, $blue8 70%, $blue9 80%, $blue10 90%, $blue11 100%;
+
+$gradient-list:  $blue1 15%, $blue2 15%, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
 
 @mixin gradient($direction, $gradient-list){
     background: -webkit-linear-gradient($direction, $gradient-list);
