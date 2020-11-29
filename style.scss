@@ -13,6 +13,7 @@ $width-desktop: 1080px;
 @import "typography";
 @import "color";
 @import "desktop";
+@import "gradient";
 
 
 html {
@@ -159,3 +160,6 @@ footer {
     display: block;
     padding-bottom: 25em;
 }
+
+
+

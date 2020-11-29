@@ -1,0 +1,22 @@
+$blue: #409fff;
+$blue1: #3695f5;
+$blue2: #2c8beb;
+$blue3: #2281e1;
+$blue4: #1877d7;
+$blue5: #0e6dcd;
+$blue6: #0463c3;
+$blue7: #0059b9;
+$blue8: #004faf;
+$blue9: #0045a5;
+$blue10: #003b9b;
+$blue11: #003191;
+
+$gradient-list: $blue 0%, $blue1 10%, $blue2 20%, $blue4 30%, $blue5 40%, $blue6 50%, $blue7 60%, $blue8 70%, $blue9 80%, $blue10 90%, $blue11 100%;
+
+@mixin gradient($direction, $gradient-list){
+    background: -webkit-linear-gradient($direction, $gradient-list);
+}
+
+#css-zen-garden {
+    @include gradient(top, $gradient-list);
+}

@@ -29,6 +29,10 @@
     padding-bottom: 0;
   }
 }
+#css-zen-garden {
+  background: -webkit-linear-gradient(top, #409fff 0%, #3695f5 10%, #2c8beb 20%, #1877d7 30%, #0e6dcd 40%, #0463c3 50%, #0059b9 60%, #004faf 70%, #0045a5 80%, #003b9b 90%, #003191 100%);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -57,7 +61,7 @@ h1 {
 
 h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 h1, h2, .banner, .summary p:nth-child(1) {
