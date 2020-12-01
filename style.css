@@ -30,9 +30,14 @@
   }
 }
 #css-zen-garden {
-  background: -webkit-linear-gradient(top, #ffffff 15%, #71b8ff 15%, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
+  background: -webkit-linear-gradient(top, #ffffff 10.6%, #71b8ff 10.6%, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
 }
 
+@media only screen and (min-width: 1080px) {
+  #css-zen-garden {
+    background: -webkit-linear-gradient(top, #ffffff 16%, #71b8ff 16%, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
+  }
+}
 html {
   box-sizing: border-box;
 }
