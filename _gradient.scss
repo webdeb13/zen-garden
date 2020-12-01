@@ -1,0 +1,28 @@
+$blue1: #ffffff;
+$blue2: #71b8ff;
+$blue3: #409fff;
+$blue4: #0e6dcd;
+$blue5: #0463c3;
+$blue6: #0059b9;
+$blue7: #004faf;
+$blue8: #0045a5;
+$blue9: #003b9b;
+
+
+$gradient-list: $blue1 10.6%, $blue2 10.6%, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
+
+@mixin gradient($direction, $gradient-list){
+    background: -webkit-linear-gradient($direction, $gradient-list);
+}
+
+#css-zen-garden {
+    @include gradient(top, $gradient-list);
+}
+
+@media only screen and (min-width: $width-desktop){
+    $gradient-list:  $blue1 16%, $blue2 16%, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
+
+#css-zen-garden {
+    @include gradient(top, $gradient-list);
+    }
+}
