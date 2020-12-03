@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1080px) {
   .sidebar {
     position: absolute;
-    left: 5%;
+    left: -3em;
     top: 27.5em;
   }
 
@@ -38,6 +38,45 @@
     background: -webkit-linear-gradient(top, #ffffff 16%, #71b8ff 16%, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
   }
 }
+.design-selection nav li a:nth-child(1):link, .design-selection nav li a:nth-child(1):visited {
+  color: #ffd8ad;
+  text-decoration: none;
+  padding-bottom: 5px;
+  font-size: 1.3rem;
+  font-family: "Merienda", cursive;
+}
+.design-selection nav li a:nth-child(1):hover {
+  text-decoration: underline;
+}
+.design-selection nav li a:nth-child(1):active {
+  color: #8ed089;
+}
+
+.designer-name {
+  padding-left: 5px;
+  letter-spacing: 1px;
+}
+
+.design-selection nav li, .zen-resources, .design-archives {
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+.design-selection nav li a:link, .design-selection nav li a:visited, .zen-resources a:link, .zen-resources a:visited, .design-archives a:link, .design-archives a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.design-selection nav li a:hover, .zen-resources a:hover, .design-archives a:hover {
+  text-decoration: underline;
+}
+.design-selection nav li a:active, .zen-resources a:active, .design-archives a:active {
+  color: #8ed089;
+}
+
+.design-archives h3, .zen-resources h3 {
+  font-size: 1.3rem;
+  color: #ffd8ad;
+}
+
 html {
   box-sizing: border-box;
 }
