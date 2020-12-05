@@ -18,9 +18,9 @@
 
 // Link stylings for names of designers, resources and archives
 
-.designer-name{
+.designer-name, .design-archives nav li a, .zen-resources ul a{
     padding-left: 5px;
-    letter-spacing: 1px;
+    letter-spacing: .6px;
 }
 
  .design-selection nav li, .zen-resources, .design-archives{
@@ -45,4 +45,26 @@
     color: $heading-color;
 }
 
+// Body copy stylings for .participation, .requirements, .summary
 
+
+.participation, .requirements, .summary{
+		a {
+			&:link, &:visited {
+			  color: $link-color;
+			  text-decoration: none;
+			}
+			&:hover {
+				text-decoration: underline;
+			}
+			&:active {
+				color: $link-color;
+			}
+		}
+    }
+
+.intro .summary a {
+    color: darken($link-color, 20%);
+    font-weight: bold;
+    letter-spacing: .5px;
+}

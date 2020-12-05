@@ -33,6 +33,7 @@ body {
     margin: 0 auto;
     height: 100%;
     padding: 0px 25px;
+    line-height: 1.3rem;
 }
 
 // header styles for mobile
@@ -64,7 +65,7 @@ h1, h2, .banner, .summary p:nth-child(1) {
     max-width: 12em;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 13em;
+    margin-bottom: 15em;
 }
 
 @import "header";

@@ -52,9 +52,9 @@
   color: #8ed089;
 }
 
-.designer-name {
+.designer-name, .design-archives nav li a, .zen-resources ul a {
   padding-left: 5px;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
 }
 
 .design-selection nav li, .zen-resources, .design-archives {
@@ -77,6 +77,23 @@
   color: #ffd8ad;
 }
 
+.participation a:link, .participation a:visited, .requirements a:link, .requirements a:visited, .summary a:link, .summary a:visited {
+  color: #8ed089;
+  text-decoration: none;
+}
+.participation a:hover, .requirements a:hover, .summary a:hover {
+  text-decoration: underline;
+}
+.participation a:active, .requirements a:active, .summary a:active {
+  color: #8ed089;
+}
+
+.intro .summary a {
+  color: #4dae45;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -93,6 +110,7 @@ body {
   margin: 0 auto;
   height: 100%;
   padding: 0px 25px;
+  line-height: 1.3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -121,7 +139,7 @@ h1, h2, .banner, .summary p:nth-child(1) {
   max-width: 12em;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 13em;
+  margin-bottom: 15em;
 }
 
 @media only screen and (min-width: 1080px) {
