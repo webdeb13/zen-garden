@@ -9,7 +9,7 @@ $blue8: #0045a5;
 $blue9: #003b9b;
 
 
-$gradient-list: $blue1 10.6%, $blue2 10.6%, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
+$gradient-list: $blue1 30em, $blue2 30em, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
 
 @mixin gradient($direction, $gradient-list){
     background: -webkit-linear-gradient($direction, $gradient-list);

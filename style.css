@@ -34,7 +34,7 @@
   }
 }
 #css-zen-garden {
-  background: -webkit-linear-gradient(top, #ffffff 10.6%, #71b8ff 10.6%, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
+  background: -webkit-linear-gradient(top, #ffffff 30em, #71b8ff 30em, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
 }
 
 @media only screen and (min-width: 1080px) {
@@ -103,17 +103,42 @@
   display: block;
   content: " ";
   background-image: url("../images/ship.svg");
+  background-size: 150px 150px;
+  height: 150px;
+  width: 150px;
+  top: 309px;
+  left: 25px;
+}
+
+.explanation:after {
+  position: relative;
+  display: block;
+  content: " ";
+  background-image: url("../images/sea-turtle.svg");
   background-size: 200px 200px;
   height: 200px;
   width: 200px;
-  top: 255px;
-  left: 25px;
+  top: 25px;
+  left: 35px;
+  margin-bottom: -225px;
 }
 
 @media only screen and (min-width: 1080px) {
   .preamble:before {
-    top: 199px;
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+    top: 202px;
     left: 0;
+  }
+
+  .explanation:after {
+    background-size: 275px 275px;
+    height: 275px;
+    width: 275px;
+    top: -20em;
+    left: 28em;
+    margin-bottom: -17em;
   }
 }
 html {

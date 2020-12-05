@@ -1,19 +1,48 @@
- .preamble:before {
+
+
+.preamble:before {
         position: absolute;
         display: block;
         content: ' ';
         background-image: url('../images/ship.svg');
+        background-size: 150px 150px;
+        height: 150px;
+        width: 150px;
+        top: 309px;
+        left:25px;
+    }
+
+.explanation:after {
+        position: relative;
+        display: block;
+        content: ' ';
+        background-image: url('../images/sea-turtle.svg');
         background-size: 200px 200px;
         height: 200px;
         width: 200px;
-        top: 255px;
-        left: 25px;
+        top: 25px;
+        left: 35px;
+        margin-bottom: -225px;
     }
+
+
 
 @media only screen and (min-width: $width-desktop){
 
     .preamble:before {
-    top: 199px;
+        background-size: 200px 200px;
+        height: 200px;
+        width: 200px;
+    top: 202px;
     left: 0;
+    }
+
+    .explanation:after {
+        background-size: 275px 275px;
+        height: 275px;
+        width: 275px;
+        top: -20em;
+        left: 28em;
+        margin-bottom: -17em;
     }
 }
