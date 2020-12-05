@@ -13,6 +13,10 @@
     margin-bottom: 4em;
   }
 
+  .preamble {
+    padding-top: 15px;
+  }
+
   div.explanation {
     margin-bottom: 4em;
     width: 40%;
@@ -94,6 +98,24 @@
   letter-spacing: 0.5px;
 }
 
+.preamble:before {
+  position: absolute;
+  display: block;
+  content: " ";
+  background-image: url("../images/ship.svg");
+  background-size: 200px 200px;
+  height: 200px;
+  width: 200px;
+  top: 255px;
+  left: 25px;
+}
+
+@media only screen and (min-width: 1080px) {
+  .preamble:before {
+    top: 199px;
+    left: 0;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -139,7 +161,7 @@ h1, h2, .banner, .summary p:nth-child(1) {
   max-width: 12em;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 15em;
+  margin-bottom: 17em;
 }
 
 @media only screen and (min-width: 1080px) {

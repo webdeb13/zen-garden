@@ -1,0 +1,19 @@
+ .preamble:before {
+        position: absolute;
+        display: block;
+        content: ' ';
+        background-image: url('../images/ship.svg');
+        background-size: 200px 200px;
+        height: 200px;
+        width: 200px;
+        top: 255px;
+        left: 25px;
+    }
+
+@media only screen and (min-width: $width-desktop){
+
+    .preamble:before {
+    top: 199px;
+    left: 0;
+    }
+}

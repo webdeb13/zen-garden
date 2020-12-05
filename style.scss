@@ -15,6 +15,7 @@ $width-desktop: 1080px;
 @import "desktop";
 @import "gradient";
 @import "links";
+@import "svgpositions";
 
 
 html {
@@ -65,7 +66,7 @@ h1, h2, .banner, .summary p:nth-child(1) {
     max-width: 12em;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 15em;
+    margin-bottom: 17em;
 }
 
 @import "header";
