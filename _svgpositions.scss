@@ -52,6 +52,19 @@
 
 }
 
+footer a:before {
+     position: relative;
+        display: block;
+        content: ' ';
+        background-image: url('../images/jellyfish.svg');
+        background-size: 60px 60px;
+        height: 60px;
+        width: 60px;
+        top: 3.3em;
+        left: 0;
+        z-index: -1;
+}
+
 
 @media only screen and (min-width: $width-desktop){
 
@@ -73,10 +86,17 @@
     }
 
     .preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
-     background-size: 50px 50px;
+        background-size: 50px 50px;
         height: 50px;
         width: 50px;
         top: 1.5em;
         left: -3em;
+    }
+
+    footer a:before {
+        background-size: 90px 90px;
+        height: 90px;
+        width: 90px;
+        top: 5em;
     }
 }

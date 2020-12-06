@@ -24,7 +24,7 @@
 
   .main > footer {
     bottom: -25em;
-    left: 17%;
+    left: 4%;
     grid-column-gap: 5em;
     grid-row-gap: 5em;
   }
@@ -150,6 +150,19 @@
   left: -2.5em;
 }
 
+footer a:before {
+  position: relative;
+  display: block;
+  content: " ";
+  background-image: url("../images/jellyfish.svg");
+  background-size: 60px 60px;
+  height: 60px;
+  width: 60px;
+  top: 3.3em;
+  left: 0;
+  z-index: -1;
+}
+
 @media only screen and (min-width: 1080px) {
   .preamble:before {
     background-size: 200px 200px;
@@ -174,6 +187,13 @@
     width: 50px;
     top: 1.5em;
     left: -3em;
+  }
+
+  footer a:before {
+    background-size: 90px 90px;
+    height: 90px;
+    width: 90px;
+    top: 5em;
   }
 }
 html {
@@ -301,8 +321,8 @@ footer a:nth-child(5) {
 footer {
   position: absolute;
   bottom: -113em;
-  left: 0;
-  right: 0;
+  left: 1em;
+  right: 4em;
   margin-left: auto;
   margin-right: auto;
   width: 250px;
