@@ -138,12 +138,24 @@
   z-index: -1;
 }
 
+.preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
+  position: relative;
+  display: block;
+  content: " ";
+  background-image: url("../images/starfish.svg");
+  background-size: 40px 40px;
+  height: 40px;
+  width: 40px;
+  top: 1.5em;
+  left: -2.5em;
+}
+
 @media only screen and (min-width: 1080px) {
   .preamble:before {
     background-size: 200px 200px;
     height: 200px;
     width: 200px;
-    top: 198px;
+    top: 236px;
     left: 0;
   }
 
@@ -154,6 +166,14 @@
     top: -20em;
     left: 28em;
     margin-bottom: -17em;
+  }
+
+  .preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+    top: 1.5em;
+    left: -3em;
   }
 }
 html {
