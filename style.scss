@@ -99,8 +99,14 @@ h1, h2, .banner, .summary p:nth-child(1) {
 
 .design-selection nav li, .design-archives nav li, .zen-resources li  {
     margin: 0 auto;
-    margin-bottom: 1.3em;
+    padding-bottom: 1.3em;
 }
+
+.select, .archives, .resources {
+    margin-bottom: 3em;
+}
+
+
 
 .design-name{
     display: block;
@@ -136,7 +142,7 @@ footer a:nth-child(5){
 
 footer {
     position: absolute;
-    bottom: -90em;
+    bottom: -113em;
     left: 0;
     right: 0;
     margin-left: auto;

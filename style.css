@@ -4,7 +4,7 @@
   .sidebar {
     position: absolute;
     left: -3em;
-    top: 27.5em;
+    top: 24em;
   }
 
   .preamble,
@@ -76,9 +76,10 @@
   color: #8ed089;
 }
 
+/* This title will be behind the clam shells */
 .design-archives h3, .zen-resources h3 {
   font-size: 1.3rem;
-  color: #ffd8ad;
+  color: #003191;
 }
 
 .participation a:link, .participation a:visited, .requirements a:link, .requirements a:visited, .summary a:link, .summary a:visited {
@@ -121,6 +122,20 @@
   top: 25px;
   left: 35px;
   margin-bottom: -225px;
+}
+
+.design-selection h3:before, .design-archives h3:before, .zen-resources h3:before {
+  position: relative;
+  display: block;
+  content: " ";
+  background-image: url("../images/clamshell.svg");
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  top: 3em;
+  left: 0px;
+  margin: 0 auto;
+  z-index: -1;
 }
 
 @media only screen and (min-width: 1080px) {
@@ -226,7 +241,11 @@ h1, h2, .banner, .summary p:nth-child(1) {
 
 .design-selection nav li, .design-archives nav li, .zen-resources li {
   margin: 0 auto;
-  margin-bottom: 1.3em;
+  padding-bottom: 1.3em;
+}
+
+.select, .archives, .resources {
+  margin-bottom: 3em;
 }
 
 .design-name {
@@ -261,7 +280,7 @@ footer a:nth-child(5) {
 
 footer {
   position: absolute;
-  bottom: -90em;
+  bottom: -113em;
   left: 0;
   right: 0;
   margin-left: auto;

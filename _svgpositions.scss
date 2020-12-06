@@ -25,6 +25,21 @@
         margin-bottom: -225px;
     }
 
+.design-selection h3:before, .design-archives h3:before, .zen-resources h3:before {
+    position: relative;
+        display: block;
+        content: ' ';
+        background-image: url('../images/clamshell.svg');
+        background-size: 100px 100px;
+        height: 100px;
+        width: 100px;
+        top: 3em;
+        left: 0px;
+        margin: 0 auto;
+        z-index: -1;
+    }
+
+
 
 
 @media only screen and (min-width: $width-desktop){
