@@ -57,7 +57,7 @@ p {
   .sidebar {
     position: absolute;
     left: -3em;
-    top: 30em;
+    top: 35em;
   }
 
   .preamble,
@@ -193,8 +193,8 @@ p {
   background-size: 40px 40px;
   height: 40px;
   width: 40px;
-  top: 1.5em;
-  left: -2.5em;
+  top: 1.3em;
+  left: -1.6em;
 }
 
 footer a:before {
@@ -233,7 +233,7 @@ footer a:before {
     height: 50px;
     width: 50px;
     top: 1.5em;
-    left: -3em;
+    left: -2.1em;
   }
 
   footer a:before {
