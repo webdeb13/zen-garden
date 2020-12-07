@@ -27,7 +27,7 @@ h3:not(.select) {
 
 /* This title will be behind the clam shells */
 .design-archives h3, .zen-resources h3, .select {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #003191;
 }
 
@@ -176,10 +176,10 @@ p {
   display: block;
   content: " ";
   background-image: url("../images/clamshell.svg");
-  background-size: 100px 100px;
-  height: 100px;
-  width: 100px;
-  top: 3em;
+  background-size: 150px 150px;
+  height: 150px;
+  width: 150px;
+  top: 3.5em;
   left: 0px;
   margin: 0 auto;
   z-index: -1;
@@ -292,7 +292,7 @@ body {
 
 .design-selection nav ul, .design-archives nav ul, .zen-resources ul {
   list-style: none;
-  margin-bottom: 2em;
+  margin: 4em 0 2em;
   padding-left: 0;
 }
 
