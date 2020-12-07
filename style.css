@@ -4,7 +4,7 @@
   .sidebar {
     position: absolute;
     left: -3em;
-    top: 24em;
+    top: 30em;
   }
 
   .preamble,
@@ -168,7 +168,7 @@ footer a:before {
     background-size: 200px 200px;
     height: 200px;
     width: 200px;
-    top: 236px;
+    top: 266px;
     left: 0;
   }
 
@@ -211,8 +211,7 @@ body {
   max-width: 1080px;
   margin: 0 auto;
   height: 100%;
-  padding: 0px 25px;
-  line-height: 1.3rem;
+  padding: 0px 24px;
 }
 
 h1, h2, h3, h4, h5, h6 {
