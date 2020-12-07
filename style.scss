@@ -167,8 +167,31 @@ footer {
 // extra space for images underneath
 .extra1 {
     display: block;
-    padding-bottom: 25em;
+    padding-bottom: 35em;
 }
 
+// Bottom Sand Bar
 
-
+//
+//.extra6 {
+//    position: absolute;
+//    width: 75rem;
+//    height: 120px;
+//    background: $accent-color;
+//    border-radius: 50% / 100% 100% 0 0;
+//    bottom: 0em;
+//    left: -50%;
+//}
+//
+//.extra6:after {
+//  position: absolute;
+//  content: '';
+//   width: 95rem;
+//  height: 120px;
+//  background: darken($accent-color, 5%);
+//  margin-top: 5em;
+//  border-radius: 50% / 100% 100% 0 0;
+//  bottom: 0em;
+//  left: 65%;
+//  z-index: -3;
+//}
