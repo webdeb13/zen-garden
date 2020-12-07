@@ -1,5 +1,5 @@
 
-
+// Ship svg
 .preamble:before {
         position: absolute;
         display: block;
@@ -12,6 +12,7 @@
         left:25px;
     }
 
+// Turtle svg
 .explanation:after {
         position: relative;
         display: block;
@@ -25,6 +26,7 @@
         margin-bottom: -225px;
     }
 
+// Clam shell svg
 .design-selection h3:before, .design-archives h3:before, .zen-resources h3:before {
     position: relative;
         display: block;
@@ -72,7 +74,7 @@ footer a:before {
         background-size: 200px 200px;
         height: 200px;
         width: 200px;
-        top: 236px;
+        top: 266px;
         left: 0;
     }
 
