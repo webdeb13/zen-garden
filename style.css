@@ -25,6 +25,12 @@ h3:not(.select) {
   margin-bottom: 5px;
 }
 
+/* This title will be behind the clam shells */
+.design-archives h3, .zen-resources h3, .select {
+  font-size: 1.5rem;
+  color: #003191;
+}
+
 .summary p {
   color: #003191;
 }
@@ -121,12 +127,6 @@ p {
 }
 .design-selection nav li a:active, .zen-resources a:active, .design-archives a:active, footer a:active {
   color: #8ed089;
-}
-
-/* This title will be behind the clam shells */
-.design-archives h3, .zen-resources h3 {
-  font-size: 1.3rem;
-  color: #003191;
 }
 
 .participation a:link, .participation a:visited, .requirements a:link, .requirements a:visited, .summary a:link, .summary a:visited {
@@ -302,7 +302,7 @@ body {
 }
 
 .select, .archives, .resources {
-  margin-bottom: 3em;
+  margin: 3em 0;
 }
 
 .design-name {

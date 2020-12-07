@@ -30,6 +30,13 @@ h3:not(.select) {
     margin-bottom: 5px;
 }
 
+/* This title will be behind the clam shells */
+
+.design-archives h3, .zen-resources h3, .select {
+    font-size: 1.5rem;
+    color: $accent-color;
+}
+
 .summary p{
     color: $accent-color;
 }
