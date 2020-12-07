@@ -15,6 +15,7 @@ $width-desktop: 1080px;
 @import "desktop";
 @import "gradient";
 @import "links";
+@import "svgpositions";
 
 
 html {
@@ -33,6 +34,7 @@ body {
     margin: 0 auto;
     height: 100%;
     padding: 0px 25px;
+    line-height: 1.3rem;
 }
 
 // header styles for mobile
@@ -64,7 +66,7 @@ h1, h2, .banner, .summary p:nth-child(1) {
     max-width: 12em;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 13em;
+    margin-bottom: 17em;
 }
 
 @import "header";
@@ -97,8 +99,14 @@ h1, h2, .banner, .summary p:nth-child(1) {
 
 .design-selection nav li, .design-archives nav li, .zen-resources li  {
     margin: 0 auto;
-    margin-bottom: 1.3em;
+    padding-bottom: 1.3em;
 }
+
+.select, .archives, .resources {
+    margin-bottom: 3em;
+}
+
+
 
 .design-name{
     display: block;
@@ -134,9 +142,9 @@ footer a:nth-child(5){
 
 footer {
     position: absolute;
-    bottom: -80em;
-    left: 0;
-    right: 0;
+    bottom: -113em;
+    left: 1em;
+    right: 4em;
     margin-left: auto;
     margin-right: auto;
     width: 250px;

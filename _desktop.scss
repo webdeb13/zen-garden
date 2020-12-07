@@ -4,12 +4,16 @@
     .sidebar {
         position: absolute;
         left: -3em;
-        top: 27.5em;
+        top: 24em;
     }
     .preamble,
     .main > * {
         margin-left: 20%;
         margin-bottom: 4em;
+    }
+
+    .preamble {
+        padding-top: 15px;
     }
 
     div.explanation {
@@ -19,7 +23,7 @@
 
     .main > footer {
         bottom: -25em;
-        left: 17%;
+        left: 4%;
         grid-column-gap: 5em;
         grid-row-gap: 5em;
     }
@@ -27,5 +31,7 @@
     .extra1 {
         padding-bottom: 0;
     }
+
+
 
 }

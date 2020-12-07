@@ -4,13 +4,17 @@
   .sidebar {
     position: absolute;
     left: -3em;
-    top: 27.5em;
+    top: 24em;
   }
 
   .preamble,
 .main > * {
     margin-left: 20%;
     margin-bottom: 4em;
+  }
+
+  .preamble {
+    padding-top: 15px;
   }
 
   div.explanation {
@@ -20,7 +24,7 @@
 
   .main > footer {
     bottom: -25em;
-    left: 17%;
+    left: 4%;
     grid-column-gap: 5em;
     grid-row-gap: 5em;
   }
@@ -30,7 +34,7 @@
   }
 }
 #css-zen-garden {
-  background: -webkit-linear-gradient(top, #ffffff 10.6%, #71b8ff 10.6%, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
+  background: -webkit-linear-gradient(top, #ffffff 30em, #71b8ff 30em, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
 }
 
 @media only screen and (min-width: 1080px) {
@@ -52,31 +56,146 @@
   color: #8ed089;
 }
 
-.designer-name {
+.designer-name, .design-archives nav li a, .zen-resources ul a {
   padding-left: 5px;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
 }
 
-.design-selection nav li, .zen-resources, .design-archives {
+.design-selection nav li, .zen-resources, .design-archives, footer {
   padding-bottom: 5px;
   font-size: 1rem;
 }
-.design-selection nav li a:link, .design-selection nav li a:visited, .zen-resources a:link, .zen-resources a:visited, .design-archives a:link, .design-archives a:visited {
+.design-selection nav li a:link, .design-selection nav li a:visited, .zen-resources a:link, .zen-resources a:visited, .design-archives a:link, .design-archives a:visited, footer a:link, footer a:visited {
   color: #ffffff;
   text-decoration: none;
 }
-.design-selection nav li a:hover, .zen-resources a:hover, .design-archives a:hover {
+.design-selection nav li a:hover, .zen-resources a:hover, .design-archives a:hover, footer a:hover {
   text-decoration: underline;
 }
-.design-selection nav li a:active, .zen-resources a:active, .design-archives a:active {
+.design-selection nav li a:active, .zen-resources a:active, .design-archives a:active, footer a:active {
   color: #8ed089;
 }
 
+/* This title will be behind the clam shells */
 .design-archives h3, .zen-resources h3 {
   font-size: 1.3rem;
-  color: #ffd8ad;
+  color: #003191;
 }
 
+.participation a:link, .participation a:visited, .requirements a:link, .requirements a:visited, .summary a:link, .summary a:visited {
+  color: #8ed089;
+  text-decoration: none;
+}
+.participation a:hover, .requirements a:hover, .summary a:hover {
+  text-decoration: underline;
+}
+.participation a:active, .requirements a:active, .summary a:active {
+  color: #8ed089;
+}
+
+.intro .summary a {
+  color: #4dae45;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.preamble:before {
+  position: absolute;
+  display: block;
+  content: " ";
+  background-image: url("../images/ship.svg");
+  background-size: 150px 150px;
+  height: 150px;
+  width: 150px;
+  top: 305px;
+  left: 25px;
+}
+
+.explanation:after {
+  position: relative;
+  display: block;
+  content: " ";
+  background-image: url("../images/sea-turtle.svg");
+  background-size: 200px 200px;
+  height: 200px;
+  width: 200px;
+  top: 25px;
+  left: 35px;
+  margin-bottom: -225px;
+}
+
+.design-selection h3:before, .design-archives h3:before, .zen-resources h3:before {
+  position: relative;
+  display: block;
+  content: " ";
+  background-image: url("../images/clamshell.svg");
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  top: 3em;
+  left: 0px;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
+  position: relative;
+  display: block;
+  content: " ";
+  background-image: url("../images/starfish.svg");
+  background-size: 40px 40px;
+  height: 40px;
+  width: 40px;
+  top: 1.5em;
+  left: -2.5em;
+}
+
+footer a:before {
+  position: relative;
+  display: block;
+  content: " ";
+  background-image: url("../images/jellyfish.svg");
+  background-size: 60px 60px;
+  height: 60px;
+  width: 60px;
+  top: 3.3em;
+  left: 0;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1080px) {
+  .preamble:before {
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+    top: 236px;
+    left: 0;
+  }
+
+  .explanation:after {
+    background-size: 275px 275px;
+    height: 275px;
+    width: 275px;
+    top: -20em;
+    left: 28em;
+    margin-bottom: -17em;
+  }
+
+  .preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+    top: 1.5em;
+    left: -3em;
+  }
+
+  footer a:before {
+    background-size: 90px 90px;
+    height: 90px;
+    width: 90px;
+    top: 4.7em;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -93,6 +212,7 @@ body {
   margin: 0 auto;
   height: 100%;
   padding: 0px 25px;
+  line-height: 1.3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -121,7 +241,7 @@ h1, h2, .banner, .summary p:nth-child(1) {
   max-width: 12em;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 13em;
+  margin-bottom: 17em;
 }
 
 @media only screen and (min-width: 1080px) {
@@ -161,7 +281,11 @@ h1, h2, .banner, .summary p:nth-child(1) {
 
 .design-selection nav li, .design-archives nav li, .zen-resources li {
   margin: 0 auto;
-  margin-bottom: 1.3em;
+  padding-bottom: 1.3em;
+}
+
+.select, .archives, .resources {
+  margin-bottom: 3em;
 }
 
 .design-name {
@@ -196,9 +320,9 @@ footer a:nth-child(5) {
 
 footer {
   position: absolute;
-  bottom: -80em;
-  left: 0;
-  right: 0;
+  bottom: -113em;
+  left: 1em;
+  right: 4em;
   margin-left: auto;
   margin-right: auto;
   width: 250px;

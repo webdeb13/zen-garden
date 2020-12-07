@@ -18,12 +18,12 @@
 
 // Link stylings for names of designers, resources and archives
 
-.designer-name{
+.designer-name, .design-archives nav li a, .zen-resources ul a{
     padding-left: 5px;
-    letter-spacing: 1px;
+    letter-spacing: .6px;
 }
 
- .design-selection nav li, .zen-resources, .design-archives{
+ .design-selection nav li, .zen-resources, .design-archives, footer{
         padding-bottom: 5px;
 		font-size: 1rem;
 		a {
@@ -40,9 +40,33 @@
 		}
     }
 
+/* This title will be behind the clam shells */
+
 .design-archives h3, .zen-resources h3 {
     font-size: 1.3rem;
-    color: $heading-color;
+    color: $accent-color;
 }
 
+// Body copy stylings for .participation, .requirements, .summary
 
+
+.participation, .requirements, .summary{
+		a {
+			&:link, &:visited {
+			  color: $link-color;
+			  text-decoration: none;
+			}
+			&:hover {
+				text-decoration: underline;
+			}
+			&:active {
+				color: $link-color;
+			}
+		}
+    }
+
+.intro .summary a {
+    color: darken($link-color, 20%);
+    font-weight: bold;
+    letter-spacing: .5px;
+}

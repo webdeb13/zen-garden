@@ -1,0 +1,102 @@
+
+
+.preamble:before {
+        position: absolute;
+        display: block;
+        content: ' ';
+        background-image: url('../images/ship.svg');
+        background-size: 150px 150px;
+        height: 150px;
+        width: 150px;
+        top: 305px;
+        left:25px;
+    }
+
+.explanation:after {
+        position: relative;
+        display: block;
+        content: ' ';
+        background-image: url('../images/sea-turtle.svg');
+        background-size: 200px 200px;
+        height: 200px;
+        width: 200px;
+        top: 25px;
+        left: 35px;
+        margin-bottom: -225px;
+    }
+
+.design-selection h3:before, .design-archives h3:before, .zen-resources h3:before {
+    position: relative;
+        display: block;
+        content: ' ';
+        background-image: url('../images/clamshell.svg');
+        background-size: 100px 100px;
+        height: 100px;
+        width: 100px;
+        top: 3em;
+        left: 0px;
+        margin: 0 auto;
+        z-index: -1;
+    }
+
+.preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
+    position: relative;
+        display: block;
+        content: ' ';
+        background-image: url('../images/starfish.svg');
+        background-size: 40px 40px;
+        height: 40px;
+        width: 40px;
+        top: 1.5em;
+        left: -2.5em;
+
+}
+
+footer a:before {
+     position: relative;
+        display: block;
+        content: ' ';
+        background-image: url('../images/jellyfish.svg');
+        background-size: 60px 60px;
+        height: 60px;
+        width: 60px;
+        top: 3.3em;
+        left: 0;
+        z-index: -1;
+}
+
+
+@media only screen and (min-width: $width-desktop){
+
+    .preamble:before {
+        background-size: 200px 200px;
+        height: 200px;
+        width: 200px;
+        top: 236px;
+        left: 0;
+    }
+
+    .explanation:after {
+        background-size: 275px 275px;
+        height: 275px;
+        width: 275px;
+        top: -20em;
+        left: 28em;
+        margin-bottom: -17em;
+    }
+
+    .preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
+        background-size: 50px 50px;
+        height: 50px;
+        width: 50px;
+        top: 1.5em;
+        left: -3em;
+    }
+
+    footer a:before {
+        background-size: 90px 90px;
+        height: 90px;
+        width: 90px;
+        top: 4.7em;
+    }
+}
