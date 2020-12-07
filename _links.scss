@@ -65,3 +65,10 @@
     font-weight: bold;
     letter-spacing: .5px;
 }
+
+//Link Styling for jellyfish
+footer {
+	a:link, a:visited{
+	color:$accent-color;
+	}
+}

@@ -146,6 +146,10 @@ p {
   letter-spacing: 0.5px;
 }
 
+footer a:link, footer a:visited {
+  color: #003191;
+}
+
 .preamble:before {
   position: absolute;
   display: block;
