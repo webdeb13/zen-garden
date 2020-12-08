@@ -1,4 +1,4 @@
-$blue1: #ffffff;
+$white1: #ffffff;
 $blue2: #71b8ff;
 $blue3: #409fff;
 $blue4: #0e6dcd;
@@ -7,9 +7,11 @@ $blue6: #0059b9;
 $blue7: #004faf;
 $blue8: #0045a5;
 $blue9: #003b9b;
+$orange-grad: rgba(255,186,137,0.3);
+$orange-grad2: rgba(255,186,137, 0.5);
 
 
-$gradient-list: $blue1 40em, $blue2 40em, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
+$gradient-list: $white1 40em, $blue2 40em, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
 
 @mixin gradient($direction, $gradient-list){
     background: -webkit-linear-gradient($direction, $gradient-list);
@@ -25,22 +27,23 @@ $gradient-list: $blue1 40em, $blue2 40em, $blue3 25%, $blue4 40%, $blue5 55%, $b
     position: absolute;
     content: '';
     width: 100%;
-    height: 40.5em;
+    height: 42.5em;
     top: -2.5em;
     left: 0;
-    background:radial-gradient(ellipse at bottom, #ffffff 0%, #ffffff 25%, #f9e4f8 50%, #ffba89 100%, );
-    z-index: -5;
+    background:radial-gradient(circle at bottom, $white1 0%, $white1 25%, $orange-grad 65%, $orange-grad2 100%);
+    z-index: -10;
 }
 
 @media only screen and (min-width: $width-desktop){
-    $gradient-list:  $blue1 16%, $blue2 16%, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
+    $gradient-list:  $white1 37.5em, $blue2 37.5em, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
 
 #css-zen-garden {
     @include gradient(top, $gradient-list);
     }
 
     #css-zen-garden:before {
-         height: 42em;
+         height: 40.1em;
+        background:radial-gradient(ellipse at bottom, $white1 0%, $white1 25%, $orange-grad 65%, $orange-grad2 100% );
     }
 
 }
