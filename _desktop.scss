@@ -1,6 +1,14 @@
 @media only screen and (min-width: $width-desktop){
 
     //main styling for desktop
+       .supporting{
+    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    //main styling for desktop
     .sidebar {
         position: absolute;
         left: -3em;

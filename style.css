@@ -54,6 +54,13 @@ p {
 }
 
 @media only screen and (min-width: 1080px) {
+  .supporting {
+    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .sidebar {
     position: absolute;
     left: -3em;
@@ -87,12 +94,27 @@ p {
   }
 }
 #css-zen-garden {
-  background: -webkit-linear-gradient(top, #ffffff 30em, #71b8ff 30em, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
+  background: -webkit-linear-gradient(top, #ffffff 40em, #71b8ff 40em, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
+}
+
+#css-zen-garden:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 40.5em;
+  top: -2.5em;
+  left: 0;
+  background: radial-gradient(ellipse at bottom, #ffffff 0%, #ffffff 25%, #f9e4f8 50%, #ffba89 100%);
+  z-index: -5;
 }
 
 @media only screen and (min-width: 1080px) {
   #css-zen-garden {
     background: -webkit-linear-gradient(top, #ffffff 16%, #71b8ff 16%, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
+  }
+
+  #css-zen-garden:before {
+    height: 42em;
   }
 }
 .design-selection nav li a:nth-child(1):link, .design-selection nav li a:nth-child(1):visited {
@@ -158,7 +180,7 @@ footer a:link, footer a:visited {
   background-size: 150px 150px;
   height: 150px;
   width: 150px;
-  top: 305px;
+  top: 465px;
   left: 25px;
 }
 
@@ -277,15 +299,15 @@ footer a:before {
     background-size: 275px 275px;
     height: 275px;
     width: 275px;
-    top: 318px;
+    top: 326px;
     left: -3em;
   }
 
   .explanation:after {
-    background-size: 275px 275px;
-    height: 275px;
-    width: 275px;
-    top: -20em;
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+    top: -25em;
     left: 28em;
     margin-bottom: -17em;
   }
@@ -314,6 +336,12 @@ html {
 }
 
 body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  height: 100%;
+}
+
+.page-wrapper {
   position: relative;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
@@ -399,7 +427,7 @@ footer a:nth-child(5) {
 
 footer {
   position: absolute;
-  bottom: -113em;
+  bottom: -135em;
   left: 1em;
   right: 4em;
   margin-left: auto;
