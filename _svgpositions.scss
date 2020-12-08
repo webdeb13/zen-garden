@@ -32,15 +32,16 @@
         display: block;
         content: ' ';
         background-image: url('../images/clamshell.svg');
-        background-size: 100px 100px;
-        height: 100px;
-        width: 100px;
-        top: 3em;
+        background-size: 150px 150px;
+        height: 150px;
+        width: 150px;
+        top: 3.5em;
         left: 0px;
         margin: 0 auto;
         z-index: -1;
     }
 
+//starfish svg
 .preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
     position: relative;
         display: block;
@@ -49,11 +50,13 @@
         background-size: 40px 40px;
         height: 40px;
         width: 40px;
-        top: 1.5em;
-        left: -2.5em;
+        top: 1.3em;
+        left: -1.6em;
 
 }
 
+
+//jellyfish svg
 footer a:before {
      position: relative;
         display: block;
@@ -68,14 +71,80 @@ footer a:before {
 }
 
 
+//bubbles svg
+
+//mobile bubble 1
+.preamble:after {
+    position: absolute;
+    content: ' ';
+    background-image: url('../images/bubble.svg');
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+    opacity: .3;
+    z-index: -2;
+    bottom: 0;
+    left: 15%;
+    animation: animateBubble 45s linear infinite, sideWays 3s ease-in-out infinite alternate;
+}
+
+//mobile bubble 2
+.intro:before {
+    position: absolute;
+    content: ' ';
+    background-image: url('../images/bubble.svg');
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    opacity: .3;
+    z-index: -2;
+    bottom: 0;
+    left: 45%;
+    animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+}
+
+//mobile bubble 3
+.intro:after {
+    position: absolute;
+    content: ' ';
+    background-image: url('../images/bubble.svg');
+    background-size: 45px 45px;
+    height: 45px;
+    width: 45px;
+    opacity: .3;
+    z-index: -2;
+    bottom: 0;
+    left: 75%;
+    animation: animateBubble 35s linear infinite, sideWays 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes animateBubble {
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 93%;
+    }
+}
+
+@keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 50px;
+    }
+}
+
 @media only screen and (min-width: $width-desktop){
 
     .preamble:before {
-        background-size: 200px 200px;
-        height: 200px;
-        width: 200px;
-        top: 266px;
-        left: 0;
+        background-size: 275px 275px;
+        height: 275px;
+        width: 275px;
+        top: 318px;
+        left: -3em;
     }
 
     .explanation:after {
@@ -92,7 +161,7 @@ footer a:before {
         height: 50px;
         width: 50px;
         top: 1.5em;
-        left: -3em;
+        left: -2.1em;
     }
 
     footer a:before {

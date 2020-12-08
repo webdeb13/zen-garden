@@ -40,12 +40,7 @@
 		}
     }
 
-/* This title will be behind the clam shells */
 
-.design-archives h3, .zen-resources h3 {
-    font-size: 1.3rem;
-    color: $accent-color;
-}
 
 // Body copy stylings for .participation, .requirements, .summary
 
@@ -69,4 +64,11 @@
     color: darken($link-color, 20%);
     font-weight: bold;
     letter-spacing: .5px;
+}
+
+//Link Styling for jellyfish
+footer {
+	a:link, a:visited{
+	color:$accent-color;
+	}
 }
