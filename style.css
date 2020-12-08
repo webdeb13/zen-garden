@@ -402,6 +402,7 @@ body {
 .design-selection nav li, .design-archives nav li, .zen-resources li {
   margin: 0 auto;
   padding-bottom: 1.3em;
+  color: #003191;
 }
 
 .select, .archives, .resources {
