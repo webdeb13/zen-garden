@@ -115,7 +115,7 @@ footer a:before {
     z-index: -2;
     bottom: 0;
     left: 75%;
-    animation: animateBubble 35s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 5s linear infinite, sideWays 2s ease-in-out infinite alternate;
 }
 
 
@@ -124,7 +124,7 @@ footer a:before {
         bottom: 0;
     }
     100% {
-        bottom: 93%;
+        bottom: 88.2%;
     }
 }
 
@@ -172,5 +172,27 @@ footer a:before {
         height: 90px;
         width: 90px;
         top: 4.7em;
+    }
+
+    //desktop bubbles
+    .preamble:after {
+        animation: animateBubbleDesktop 45s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    }
+
+    .intro:before {
+        animation: animateBubbleDesktop 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    }
+
+    .intro:after {
+        animation: animateBubbleDesktop 35s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes animateBubbleDesktop {
+        0% {
+            bottom: 0;
+        }
+        100% {
+            bottom: 81%;
+        }
     }
 }
