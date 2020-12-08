@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.5em;
-  color: #408fff;
+  color: #0042c4;
 }
 
 h2 {
@@ -25,6 +25,10 @@ h3:not(.select) {
   margin-bottom: 5px;
 }
 
+.intro header h2 {
+  color: #408fff;
+}
+
 /* This title will be behind the clam shells */
 .design-archives h3, .zen-resources h3, .select {
   font-size: 1.4rem;
@@ -33,6 +37,10 @@ h3:not(.select) {
 
 .summary p {
   color: #003191;
+}
+
+.summary p:nth-child(1) {
+  font-style: italic;
 }
 
 p {
@@ -63,7 +71,6 @@ p {
 
   h1 {
     font-size: 3.5em;
-    color: #408fff;
   }
 
   .sidebar {

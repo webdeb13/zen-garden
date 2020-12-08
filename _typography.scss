@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
     font-size: 2.5em;
-    color: $main-color;
+    color: lighten($accent-color, 10%);
 }
 
 h2 {
@@ -30,6 +30,9 @@ h3:not(.select) {
     margin-bottom: 5px;
 }
 
+.intro header h2 {
+    color: $main-color;
+}
 /* This title will be behind the clam shells */
 
 .design-archives h3, .zen-resources h3, .select {
@@ -39,6 +42,11 @@ h3:not(.select) {
 
 .summary p{
     color: $accent-color;
+
+}
+
+.summary p:nth-child(1) {
+    font-style: italic;
 }
 
 p {
