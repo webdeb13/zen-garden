@@ -54,6 +54,13 @@ p {
 }
 
 @media only screen and (min-width: 1080px) {
+  .supporting {
+    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .sidebar {
     position: absolute;
     left: -3em;
@@ -107,7 +114,7 @@ p {
   }
 
   #css-zen-garden:before {
-    height: 39.2em;
+    height: 42em;
   }
 }
 .design-selection nav li a:nth-child(1):link, .design-selection nav li a:nth-child(1):visited {
@@ -329,6 +336,12 @@ html {
 }
 
 body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  height: 100%;
+}
+
+.page-wrapper {
   position: relative;
   font-family: "Roboto", sans-serif;
   font-size: 1em;
