@@ -15,13 +15,15 @@
 }
     //main styling for desktop
     .sidebar {
+        padding: 10px;
         position: absolute;
         left: -3em;
         top: 35em;
+        margin: 0 3em;
     }
     .preamble,
     .main > * {
-        margin-left: 20%;
+        margin-left: 30%;
         margin-bottom: 4em;
     }
 

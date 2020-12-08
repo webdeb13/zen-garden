@@ -74,14 +74,16 @@ p {
   }
 
   .sidebar {
+    padding: 10px;
     position: absolute;
     left: -3em;
     top: 35em;
+    margin: 0 3em;
   }
 
   .preamble,
 .main > * {
-    margin-left: 20%;
+    margin-left: 30%;
     margin-bottom: 4em;
   }
 
@@ -288,7 +290,7 @@ footer a:before {
   z-index: -2;
   bottom: 0;
   left: 75%;
-  animation: animateBubble 5s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 35s linear infinite, sideWays 2s ease-in-out infinite alternate;
 }
 
 @keyframes animateBubble {
