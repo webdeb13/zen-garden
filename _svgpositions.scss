@@ -8,7 +8,7 @@
         background-size: 150px 150px;
         height: 150px;
         width: 150px;
-        top: 305px;
+        top: 465px;
         left:25px;
     }
 
@@ -139,19 +139,21 @@ footer a:before {
 
 @media only screen and (min-width: $width-desktop){
 
+// boat desktop
     .preamble:before {
         background-size: 275px 275px;
         height: 275px;
         width: 275px;
-        top: 318px;
+        top: 326px;
         left: -3em;
     }
 
+// turtle desktop
     .explanation:after {
-        background-size: 275px 275px;
-        height: 275px;
-        width: 275px;
-        top: -20em;
+        background-size: 300px 300px;
+        height: 300px;
+        width: 300px;
+        top: -25em;
         left: 28em;
         margin-bottom: -17em;
     }
