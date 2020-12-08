@@ -5,8 +5,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3.5em;
-  color: #ff6700;
+  font-size: 2.5em;
+  color: #408fff;
 }
 
 h2 {
@@ -59,6 +59,11 @@ p {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  h1 {
+    font-size: 3.5em;
+    color: #408fff;
   }
 
   .sidebar {
@@ -300,7 +305,7 @@ footer a:before {
     background-size: 275px 275px;
     height: 275px;
     width: 275px;
-    top: 307px;
+    top: 294px;
     left: -3em;
   }
 

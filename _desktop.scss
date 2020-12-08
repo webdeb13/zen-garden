@@ -8,6 +8,10 @@
     margin-right: auto;
 }
 
+    h1{
+    font-size: 3.5em;
+    color: $main-color;
+}
     //main styling for desktop
     .sidebar {
         position: absolute;
@@ -39,7 +43,4 @@
     .extra1 {
         padding-bottom: 0;
     }
-
-
-
 }
