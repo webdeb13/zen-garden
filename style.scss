@@ -30,7 +30,8 @@ body {
     font-family: $body-font;
     font-size: 1em;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+
 }
 
 .page-wrapper {
@@ -41,7 +42,6 @@ body {
     margin: 0 auto;
     height: 100%;
     padding: 0px 24px;
-
 }
 
 @import "header";
