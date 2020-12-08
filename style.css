@@ -394,6 +394,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   height: 100%;
+  overflow: hidden;
 }
 
 .page-wrapper {
