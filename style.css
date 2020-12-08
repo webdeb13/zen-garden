@@ -197,8 +197,28 @@ footer a:link, footer a:visited {
   width: 150px;
   top: 29.1em;
   left: 25px;
+  animation: rock 4s ease-in-out forwards infinite, sail 8s ease-in-out infinite alternate;
 }
 
+@keyframes rock {
+  0% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(3deg);
+  }
+}
+@keyframes sail {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
 .explanation:after {
   position: relative;
   display: block;
