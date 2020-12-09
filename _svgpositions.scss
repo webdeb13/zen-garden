@@ -212,7 +212,7 @@ footer a::before {
     }
 
     //desktop bubbles
-    .preamble:after {
+    .preamble::after {
         animation: animateBubbleDesktop 45s linear infinite, sideWays 3s ease-in-out infinite alternate;
     }
 
