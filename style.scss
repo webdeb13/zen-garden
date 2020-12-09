@@ -17,7 +17,6 @@ $width-desktop: 1080px;
 @import "links";
 @import "svgpositions";
 
-
 html {
     box-sizing: border-box;
 }
@@ -31,7 +30,6 @@ body {
     font-size: 1em;
     height: 100%;
     overflow-x: hidden;
-
 }
 
 .page-wrapper {
@@ -61,85 +59,9 @@ body {
     margin-bottom: 7em;
 }
 
-// styles for aside and links
+// styles for grid and footer jellyfish links
 
-.wrapper {
-    text-align: center;
-}
-
-.design-selection nav ul, .design-archives nav ul, .zen-resources ul {
-    list-style: none;
-    margin: 4em 0 2em;
-    padding-left: 0;
-}
-
-.design-selection nav li, .design-archives nav li, .zen-resources li  {
-    margin: 0 auto;
-    padding-bottom: 1.3em;
-    color: $accent-color;
-}
-
-/*.select, .archives, .resources {
-    margin: 3em 0;
-}*/
-
-
-
-.design-name{
-    display: block;
-    font-size: 1.2em;
-}
-
-.design-selection nav li a:nth-child(1){
-    padding-bottom: .4em;
-}
-
-// styles for footer jellyfish links
-
-/* grid assignments for grid template area*/
-footer a:nth-child(1){
-    grid-area: one;
-}
-
-footer a:nth-child(2){
-    grid-area: two;
-}
-
-footer a:nth-child(3){
-    grid-area: three;
-}
-
-footer a:nth-child(4){
-    grid-area: four;
-}
-
-footer a:nth-child(5){
-    grid-area: five;
-}
-
-footer {
-    position: absolute;
-    bottom: -135em;
-    left: 1em;
-    right: 4em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 4em auto;
-    grid-template-areas:
-        "one . two . three"
-        ". four . five ."
-}
-
-.supporting{
-    position: relative;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
+@import "grid";
 
 
 

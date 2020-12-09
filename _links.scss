@@ -40,10 +40,7 @@
 		}
     }
 
-
-
 // Body copy stylings for .participation, .requirements, .summary
-
 
 .participation, .requirements, .summary{
 		a {
@@ -71,4 +68,31 @@ footer {
 	a:link, a:visited{
 	color:$accent-color;
 	}
+}
+
+// styles for aside and links
+
+.wrapper {
+    text-align: center;
+}
+
+.design-selection nav ul, .design-archives nav ul, .zen-resources ul {
+    list-style: none;
+    margin: 4em 0 2em;
+    padding-left: 0;
+}
+
+.design-selection nav li, .design-archives nav li, .zen-resources li  {
+    margin: 0 auto;
+    padding-bottom: 1.3em;
+    color: $accent-color;
+}
+
+.design-name{
+    display: block;
+    font-size: 1.2em;
+}
+
+.design-selection nav li a:nth-child(1){
+    padding-bottom: .4em;
 }

@@ -1,0 +1,44 @@
+/* grid assignments for grid template area*/
+footer a:nth-child(1){
+    grid-area: one;
+}
+
+footer a:nth-child(2){
+    grid-area: two;
+}
+
+footer a:nth-child(3){
+    grid-area: three;
+}
+
+footer a:nth-child(4){
+    grid-area: four;
+}
+
+footer a:nth-child(5){
+    grid-area: five;
+}
+
+footer {
+    position: absolute;
+    bottom: -135em;
+    left: 1em;
+    right: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4em auto;
+    grid-template-areas:
+        "one . two . three"
+        ". four . five ."
+}
+
+.supporting{
+    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

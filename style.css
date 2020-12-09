@@ -188,6 +188,31 @@ footer a:link, footer a:visited {
   color: #003191;
 }
 
+.wrapper {
+  text-align: center;
+}
+
+.design-selection nav ul, .design-archives nav ul, .zen-resources ul {
+  list-style: none;
+  margin: 4em 0 2em;
+  padding-left: 0;
+}
+
+.design-selection nav li, .design-archives nav li, .zen-resources li {
+  margin: 0 auto;
+  padding-bottom: 1.3em;
+  color: #003191;
+}
+
+.design-name {
+  display: block;
+  font-size: 1.2em;
+}
+
+.design-selection nav li a:nth-child(1) {
+  padding-bottom: 0.4em;
+}
+
 .preamble::before {
   position: absolute;
   display: block;
@@ -458,34 +483,6 @@ body {
 
 .requirements {
   margin-bottom: 7em;
-}
-
-.wrapper {
-  text-align: center;
-}
-
-.design-selection nav ul, .design-archives nav ul, .zen-resources ul {
-  list-style: none;
-  margin: 4em 0 2em;
-  padding-left: 0;
-}
-
-.design-selection nav li, .design-archives nav li, .zen-resources li {
-  margin: 0 auto;
-  padding-bottom: 1.3em;
-  color: #003191;
-}
-
-/*.select, .archives, .resources {
-    margin: 3em 0;
-}*/
-.design-name {
-  display: block;
-  font-size: 1.2em;
-}
-
-.design-selection nav li a:nth-child(1) {
-  padding-bottom: 0.4em;
 }
 
 /* grid assignments for grid template area*/

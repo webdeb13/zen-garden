@@ -10,7 +10,6 @@ $blue9: #003b9b;
 $orange-grad: rgba(255,186,137,0.3);
 $orange-grad2: rgba(255,186,137, 0.5);
 
-
 $gradient-list: $white1 40em, $blue2 40em, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
 
 @mixin gradient($direction, $gradient-list){
@@ -46,6 +45,3 @@ body {
         background:radial-gradient(ellipse at bottom, $white1 0%, $white1 25%, $orange-grad 65%, $orange-grad2 100% );
     }
 }
-
-
-

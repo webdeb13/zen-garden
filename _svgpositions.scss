@@ -13,7 +13,6 @@
         animation: rock 4s ease-in-out forwards infinite, sail 5s ease-in-out infinite alternate;
     }
 
-
 //Ship animation
 @keyframes rock {
     0% {transform: rotate(3deg);}
@@ -25,9 +24,6 @@
     0%{margin-left: 0;}
     100%{margin-left:50px;}
 }
-
-
-
 
 // Turtle svg
 .explanation::after {
@@ -85,7 +81,6 @@
         left: -1.6em;
 }
 
-
 //jellyfish svg
 footer a::before {
      position: relative;
@@ -99,18 +94,13 @@ footer a::before {
         left: 0;
         z-index: -1;
         animation: jellyJiggle .5s ease-in-out forwards infinite;
-            
         }
-
 
 @keyframes jellyJiggle {
     0% {transform: rotate(1deg);}
     50% {transform: rotate(-1deg);}
     100%{transform: rotate(1deg);}
 }
-
-
-//bubbles svg
 
 //mobile bubble 1
 .preamble::after {
@@ -156,7 +146,6 @@ footer a::before {
     left: 75%;
     animation: animateBubble 35s linear infinite, sideWays 2s ease-in-out infinite alternate;
 }
-
 
 @keyframes animateBubble {
     0% {
