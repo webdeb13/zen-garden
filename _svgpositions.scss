@@ -10,7 +10,7 @@
         width: 150px;
         top: 29.1em;
         left:25px;
-        animation: rock 4s ease-in-out forwards infinite, sail 8s ease-in-out infinite alternate;
+        animation: rock 4s ease-in-out forwards infinite, sail 5s ease-in-out infinite alternate;
     }
 
 
@@ -23,7 +23,7 @@
 
 @keyframes sail {
     0%{margin-left: 0;}
-    100%{margin-left:100px;}
+    100%{margin-left:50px;}
 }
 
 
