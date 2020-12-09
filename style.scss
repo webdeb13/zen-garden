@@ -152,11 +152,13 @@ footer {
 // Bottom Sand Bar css shape
 
 .extra6 {
+    position: relative;
     margin-left: -10px;
     width: 100vw;
     height: 75px;
     background: darken($accent-color, 3%);
     border-radius: 75% / 115% 115% 0 0;
+    bottom: -1em;
 }
 
 

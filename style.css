@@ -510,11 +510,13 @@ footer {
 }
 
 .extra6 {
+  position: relative;
   margin-left: -10px;
   width: 100vw;
   height: 75px;
   background: #002c82;
   border-radius: 75%/115% 115% 0 0;
+  bottom: -1em;
 }
 
 /*# sourceMappingURL=style.css.map */
