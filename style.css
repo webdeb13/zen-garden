@@ -9,10 +9,10 @@ h1 {
   color: #0042c4;
 }
 
-h2 {
+.intro header h2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.3em;
-  color: #003191;
+  color: #ffaa4c;
 }
 
 h1, h2, .banner, .summary p:nth-child(1) {
@@ -28,10 +28,6 @@ h3:not(.select) {
 .select {
   max-width: 150px;
   display: inline-block;
-}
-
-.intro header h2 {
-  color: #ff8c00;
 }
 
 /* This title will be behind the clam shells */
@@ -392,7 +388,7 @@ footer a::before {
     top: 4.7em;
   }
 
-  .preamble:after {
+  .preamble::after {
     animation: animateBubbleDesktop 45s linear infinite, sideWays 3s ease-in-out infinite alternate;
   }
 

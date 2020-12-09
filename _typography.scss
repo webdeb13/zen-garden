@@ -14,10 +14,10 @@ h1{
     color: lighten($accent-color, 10%);
 }
 
-h2 {
+.intro header h2 {
     font-family: $body-font;
     font-size: 1.3em;
-    color: $accent-color;
+     color: darken($heading-color, 19%);
 }
 
 h1, h2, .banner, .summary p:nth-child(1) {
@@ -35,10 +35,6 @@ h3:not(.select) {
     display: inline-block;
 }
 
-
-.intro header h2 {
-    color: $main-color;
-}
 /* This title will be behind the clam shells */
 
 .design-archives h3, .zen-resources h3, .select {
@@ -48,7 +44,6 @@ h3:not(.select) {
 
 .summary p{
     color: $accent-color;
-
 }
 
 .summary p:nth-child(1) {
