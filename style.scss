@@ -42,6 +42,7 @@ body {
     margin: 0 auto;
     height: 100%;
     padding: 0px 24px;
+     padding-bottom: 35em;
 }
 
 @import "header";
@@ -141,24 +142,14 @@ footer {
 }
 
 
-
-// extra space for images underneath
-
-.extra1 {
-    display: block;
-    padding-bottom: 35em;
-}
-
-// Bottom Sand Bar css shape
-
-.extra6 {
-    position: relative;
-    margin-left: -10px;
-    width: 100vw;
-    height: 75px;
-    background: darken($accent-color, 3%);
-    border-radius: 75% / 115% 115% 0 0;
-    bottom: -1em;
-}
-
+//.page-wrapper::after {
+//    position: absolute;
+//    content: '';
+//    width: 100vw;
+//    height: 75px;
+//    background: darken($accent-color, 3%);
+//   border-radius: 75% / 115% 115% 0 0;
+//    bottom: -.5em;
+//    left: -34em;
+//}
 

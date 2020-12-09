@@ -69,7 +69,7 @@ p {
     margin-right: auto;
   }
 
-  h1 {
+  .intro h1:first-of-type {
     font-size: 3.5em;
   }
 
@@ -111,7 +111,7 @@ p {
   background: -webkit-linear-gradient(top, #ffffff 40em, #71b8ff 40em, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
 }
 
-#css-zen-garden:before {
+#css-zen-garden::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -127,7 +127,7 @@ p {
     background: -webkit-linear-gradient(top, #ffffff 37.5em, #71b8ff 37.5em, #409fff 25%, #0e6dcd 40%, #0463c3 55%, #0059b9 60%, #004faf 75%, #0045a5 90%, #003b9b 100%);
   }
 
-  #css-zen-garden:before {
+  #css-zen-garden::before {
     height: 40.1em;
     background: radial-gradient(ellipse at bottom, #ffffff 0%, #ffffff 25%, rgba(255, 186, 137, 0.3) 65%, rgba(255, 186, 137, 0.5) 100%);
   }
@@ -187,7 +187,7 @@ footer a:link, footer a:visited {
   color: #003191;
 }
 
-.preamble:before {
+.preamble::before {
   position: absolute;
   display: block;
   content: " ";
@@ -219,7 +219,7 @@ footer a:link, footer a:visited {
     margin-left: 100px;
   }
 }
-.explanation:after {
+.explanation::after {
   position: relative;
   display: block;
   content: " ";
@@ -232,7 +232,7 @@ footer a:link, footer a:visited {
   margin-bottom: -225px;
 }
 
-.design-selection h3:before, .design-archives h3:before, .zen-resources h3:before {
+.design-selection h3::before, .design-archives h3::before, .zen-resources h3::before {
   position: relative;
   display: block;
   content: " ";
@@ -246,7 +246,7 @@ footer a:link, footer a:visited {
   z-index: -1;
 }
 
-.preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
+.preamble h3::before, .explanation h3::before, .participation h3::before, .benefits h3::before, .requirements h3::before {
   position: relative;
   display: block;
   content: " ";
@@ -258,7 +258,7 @@ footer a:link, footer a:visited {
   left: -1.6em;
 }
 
-footer a:before {
+footer a::before {
   position: relative;
   display: block;
   content: " ";
@@ -271,7 +271,7 @@ footer a:before {
   z-index: -1;
 }
 
-.preamble:after {
+.preamble::after {
   position: absolute;
   content: " ";
   background-image: url("../images/bubble.svg");
@@ -285,7 +285,7 @@ footer a:before {
   animation: animateBubble 45s linear infinite, sideWays 3s ease-in-out infinite alternate;
 }
 
-.intro:before {
+.intro::before {
   position: absolute;
   content: " ";
   background-image: url("../images/bubble.svg");
@@ -299,7 +299,7 @@ footer a:before {
   animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
 }
 
-.intro:after {
+.intro::after {
   position: absolute;
   content: " ";
   background-image: url("../images/bubble.svg");
@@ -330,14 +330,14 @@ footer a:before {
   }
 }
 @media only screen and (min-width: 1080px) {
-  .preamble:before {
+  .preamble::before {
     background-size: 275px 275px;
     height: 275px;
     width: 275px;
     top: 300px;
   }
 
-  .explanation:after {
+  .explanation::after {
     background-size: 300px 300px;
     height: 300px;
     width: 300px;
@@ -346,7 +346,7 @@ footer a:before {
     margin-bottom: -17em;
   }
 
-  .preamble h3:before, .explanation h3:before, .participation h3:before, .benefits h3:before, .requirements h3:before {
+  .preamble h3::before, .explanation h3::before, .participation h3::before, .benefits h3::before, .requirements h3::before {
     background-size: 50px 50px;
     height: 50px;
     width: 50px;
@@ -354,7 +354,7 @@ footer a:before {
     left: -2.1em;
   }
 
-  footer a:before {
+  footer a::before {
     background-size: 90px 90px;
     height: 90px;
     width: 90px;
@@ -365,11 +365,11 @@ footer a:before {
     animation: animateBubbleDesktop 45s linear infinite, sideWays 3s ease-in-out infinite alternate;
   }
 
-  .intro:before {
+  .intro::before {
     animation: animateBubbleDesktop 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
   }
 
-  .intro:after {
+  .intro::after {
     animation: animateBubbleDesktop 35s linear infinite, sideWays 2s ease-in-out infinite alternate;
   }
 
@@ -405,6 +405,7 @@ body {
   margin: 0 auto;
   height: 100%;
   padding: 0px 24px;
+  padding-bottom: 35em;
 }
 
 @media only screen and (min-width: 1080px) {
@@ -502,21 +503,6 @@ footer {
   height: auto;
   margin-left: auto;
   margin-right: auto;
-}
-
-.extra1 {
-  display: block;
-  padding-bottom: 35em;
-}
-
-.extra6 {
-  position: relative;
-  margin-left: -10px;
-  width: 100vw;
-  height: 75px;
-  background: #002c82;
-  border-radius: 75%/115% 115% 0 0;
-  bottom: -1em;
 }
 
 /*# sourceMappingURL=style.css.map */
