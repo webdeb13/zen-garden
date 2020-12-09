@@ -18,12 +18,12 @@ $gradient-list: $white1 40em, $blue2 40em, $blue3 25%, $blue4 40%, $blue5 55%, $
 }
 
 // linear gradient
-#css-zen-garden {
+body {
     @include gradient(top, $gradient-list);
 }
 
 // radial gradient
-#css-zen-garden::before{
+body::before{
     position: absolute;
     content: '';
     width: 100%;
@@ -37,15 +37,14 @@ $gradient-list: $white1 40em, $blue2 40em, $blue3 25%, $blue4 40%, $blue5 55%, $
 @media only screen and (min-width: $width-desktop){
     $gradient-list:  $white1 37.5em, $blue2 37.5em, $blue3 25%, $blue4 40%, $blue5 55%, $blue6 60%, $blue7 75%, $blue8 90%, $blue9 100%;
 
-#css-zen-garden {
+body {
     @include gradient(top, $gradient-list);
     }
 
-    #css-zen-garden::before {
+    body::before {
          height: 40.1em;
         background:radial-gradient(ellipse at bottom, $white1 0%, $white1 25%, $orange-grad 65%, $orange-grad2 100% );
     }
-
 }
 
 
