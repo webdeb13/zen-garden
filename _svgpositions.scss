@@ -83,7 +83,6 @@
         width: 40px;
         top: 1.3em;
         left: -1.6em;
-
 }
 
 
@@ -99,6 +98,15 @@ footer a::before {
         top: 3.3em;
         left: 0;
         z-index: -1;
+        animation: jellyJiggle .5s ease-in-out forwards infinite;
+            
+        }
+
+
+@keyframes jellyJiggle {
+    0% {transform: rotate(1deg);}
+    50% {transform: rotate(-1deg);}
+    100%{transform: rotate(1deg);}
 }
 
 
