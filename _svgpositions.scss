@@ -44,7 +44,7 @@
     }
 
 // Clam shell svg
-.design-selection h3::before, .design-archives h3::before, .zen-resources h3::before {
+.design-archives h3::before, .zen-resources h3::before {
     position: relative;
         display: block;
         content: ' ';
@@ -52,11 +52,25 @@
         background-size: 150px 150px;
         height: 150px;
         width: 150px;
-        top: 3.5em;
+        top: 3.8em;
         left: 0px;
         margin: 0 auto;
         z-index: -1;
     }
+
+.design-selection h3::before {
+    position: relative;
+    display: block;
+    content: ' ';
+    background-image: url('../images/clamshell.svg');
+    background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+    top: 4.6em;
+    left: 0px;
+    margin: 0 auto;
+    z-index: -1;
+}
 
 //starfish svg
 .preamble h3::before, .explanation h3::before, .participation h3::before, .benefits h3::before, .requirements h3::before {

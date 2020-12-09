@@ -30,6 +30,11 @@ h3:not(.select) {
     margin-bottom: 5px;
 }
 
+.select {
+    max-width: 150px;
+    display: inline-block;
+}
+
 
 .intro header h2 {
     color: $main-color;

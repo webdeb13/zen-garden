@@ -25,6 +25,11 @@ h3:not(.select) {
   margin-bottom: 5px;
 }
 
+.select {
+  max-width: 150px;
+  display: inline-block;
+}
+
 .intro header h2 {
   color: #408fff;
 }
@@ -232,7 +237,7 @@ footer a:link, footer a:visited {
   margin-bottom: -225px;
 }
 
-.design-selection h3::before, .design-archives h3::before, .zen-resources h3::before {
+.design-archives h3::before, .zen-resources h3::before {
   position: relative;
   display: block;
   content: " ";
@@ -240,7 +245,21 @@ footer a:link, footer a:visited {
   background-size: 150px 150px;
   height: 150px;
   width: 150px;
-  top: 3.5em;
+  top: 3.8em;
+  left: 0px;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.design-selection h3::before {
+  position: relative;
+  display: block;
+  content: " ";
+  background-image: url("../images/clamshell.svg");
+  background-size: 150px 150px;
+  height: 150px;
+  width: 150px;
+  top: 4.6em;
   left: 0px;
   margin: 0 auto;
   z-index: -1;
@@ -449,10 +468,9 @@ body {
   color: #003191;
 }
 
-.select, .archives, .resources {
-  margin: 3em 0;
-}
-
+/*.select, .archives, .resources {
+    margin: 3em 0;
+}*/
 .design-name {
   display: block;
   font-size: 1.2em;
