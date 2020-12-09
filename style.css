@@ -196,7 +196,7 @@ footer a:link, footer a:visited {
   position: absolute;
   display: block;
   content: " ";
-  background-image: url("../images/ship.svg");
+  background-image: url("images/ship.svg");
   background-size: 150px 150px;
   height: 150px;
   width: 150px;
@@ -228,7 +228,7 @@ footer a:link, footer a:visited {
   position: relative;
   display: block;
   content: " ";
-  background-image: url("../images/sea-turtle.svg");
+  background-image: url("images/sea-turtle.svg");
   background-size: 200px 200px;
   height: 200px;
   width: 200px;
@@ -241,7 +241,7 @@ footer a:link, footer a:visited {
   position: relative;
   display: block;
   content: " ";
-  background-image: url("../images/clamshell.svg");
+  background-image: url("images/clamshell.svg");
   background-size: 150px 150px;
   height: 150px;
   width: 150px;
@@ -255,7 +255,7 @@ footer a:link, footer a:visited {
   position: relative;
   display: block;
   content: " ";
-  background-image: url("../images/clamshell.svg");
+  background-image: url("images/clamshell.svg");
   background-size: 150px 150px;
   height: 150px;
   width: 150px;
@@ -269,7 +269,7 @@ footer a:link, footer a:visited {
   position: relative;
   display: block;
   content: " ";
-  background-image: url("../images/starfish.svg");
+  background-image: url("images/starfish.svg");
   background-size: 40px 40px;
   height: 40px;
   width: 40px;
@@ -281,7 +281,7 @@ footer a::before {
   position: relative;
   display: block;
   content: " ";
-  background-image: url("../images/jellyfish.svg");
+  background-image: url("images/jellyfish.svg");
   background-size: 60px 60px;
   height: 60px;
   width: 60px;
@@ -305,7 +305,7 @@ footer a::before {
 .preamble::after {
   position: absolute;
   content: " ";
-  background-image: url("../images/bubble.svg");
+  background-image: url("images/bubble.svg");
   background-size: 50px 50px;
   height: 50px;
   width: 50px;
@@ -319,7 +319,7 @@ footer a::before {
 .intro::before {
   position: absolute;
   content: " ";
-  background-image: url("../images/bubble.svg");
+  background-image: url("images/bubble.svg");
   background-size: 40px 40px;
   height: 40px;
   width: 40px;
@@ -333,7 +333,7 @@ footer a::before {
 .intro::after {
   position: absolute;
   content: " ";
-  background-image: url("../images/bubble.svg");
+  background-image: url("images/bubble.svg");
   background-size: 45px 45px;
   height: 45px;
   width: 45px;
