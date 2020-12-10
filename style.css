@@ -377,7 +377,7 @@ footer a::before {
     bottom: 0;
   }
   100% {
-    bottom: 88.2%;
+    bottom: 89.5%;
   }
 }
 @keyframes sideWays {
@@ -429,7 +429,7 @@ footer a::before {
   }
 
   .intro::after {
-    animation: animateBubbleDesktop 35s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubbleDesktop 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
   }
 
   @keyframes animateBubbleDesktop {
@@ -437,7 +437,7 @@ footer a::before {
       bottom: 0;
     }
     100% {
-      bottom: 81%;
+      bottom: 85%;
     }
   }
 }
