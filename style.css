@@ -429,7 +429,7 @@ footer a::before {
   }
 
   .intro::after {
-    animation: animateBubbleDesktop 7s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubbleDesktop 35s linear infinite, sideWays 2s ease-in-out infinite alternate;
   }
 
   @keyframes animateBubbleDesktop {
