@@ -152,18 +152,29 @@ body::before {
   letter-spacing: 0.6px;
 }
 
-.design-selection nav li, .zen-resources, .design-archives, footer {
+footer a:link, footer a:visited {
+  color: #003191;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer a:active {
+  color: #8ed089;
+}
+
+.design-selection nav li, .zen-resources, .design-archives {
   padding-bottom: 5px;
   font-size: 1rem;
 }
-.design-selection nav li a:link, .design-selection nav li a:visited, .zen-resources a:link, .zen-resources a:visited, .design-archives a:link, .design-archives a:visited, footer a:link, footer a:visited {
+.design-selection nav li a:link, .design-selection nav li a:visited, .zen-resources a:link, .zen-resources a:visited, .design-archives a:link, .design-archives a:visited {
   color: #ffffff;
   text-decoration: none;
 }
-.design-selection nav li a:hover, .zen-resources a:hover, .design-archives a:hover, footer a:hover {
+.design-selection nav li a:hover, .zen-resources a:hover, .design-archives a:hover {
   text-decoration: underline;
 }
-.design-selection nav li a:active, .zen-resources a:active, .design-archives a:active, footer a:active {
+.design-selection nav li a:active, .zen-resources a:active, .design-archives a:active {
   color: #8ed089;
 }
 
@@ -182,10 +193,6 @@ body::before {
   color: #50b548;
   font-weight: bold;
   letter-spacing: 0.5px;
-}
-
-footer a:link, footer a:visited {
-  color: #003191;
 }
 
 .wrapper {
@@ -267,7 +274,7 @@ footer a:link, footer a:visited {
   height: 150px;
   width: 150px;
   top: 3.8em;
-  left: 0px;
+  left: 0;
   margin: 0 auto;
   z-index: -1;
 }
@@ -281,7 +288,7 @@ footer a:link, footer a:visited {
   height: 150px;
   width: 150px;
   top: 4.6em;
-  left: 0px;
+  left: 0;
   margin: 0 auto;
   z-index: -1;
 }

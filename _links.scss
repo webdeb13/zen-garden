@@ -23,7 +23,23 @@
     letter-spacing: .6px;
 }
 
- .design-selection nav li, .zen-resources, .design-archives, footer{
+footer{
+
+    a {
+		&:link, &:visited {
+	     color:$accent-color;
+		 text-decoration: none;
+		 }
+		 &:hover {
+		    text-decoration: underline;
+         }
+		 &:active {
+		    color: $link-color;
+            }
+		}
+    }
+
+ .design-selection nav li, .zen-resources, .design-archives {
         padding-bottom: 5px;
 		font-size: 1rem;
 		a {
@@ -63,12 +79,6 @@
     letter-spacing: .5px;
 }
 
-//Link Styling for jellyfish
-footer {
-	a:link, a:visited{
-	color:$accent-color;
-	}
-}
 
 // styles for aside and links
 
